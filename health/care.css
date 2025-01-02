@@ -1,0 +1,107 @@
+.navbar{
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width:  100%;
+}
+.head{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 120px;
+    height: 80px;
+    background-image: url("medical logo.jpg");
+    background-size: cover;
+    padding-bottom: 10px;
+}
+#heading{
+    font-size: 40px;
+    text-transform:uppercase;
+    color: darkcyan;
+}
+button{
+    color: black;
+    font-size: 20px;
+    text-transform: capitalize;
+    cursor: pointer;
+    display: inline-block;
+    border: solid 2px gray;
+    background-color: white;
+}
+button:hover{
+    background-color: lightgrey;
+}
+.container{
+    display:  flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    background-color: rgb(115, 183, 175);
+    height: 40px;
+}
+a{
+    text-decoration: none;
+}
+#login{
+    display: inline-block;
+    background-color: lightblue;
+    cursor: pointer;
+}
+#login:hover{
+    color: grey;
+    background-color: black;
+}
+.content, .about{
+    height: 85vh;
+    background-image: url("background.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: baseline;
+}
+#imp{
+    font-size: 40px;
+    color:white;
+    text-transform: capitalize;
+    
+}
+#inside{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0 0 50px 30px;
+}
+#learn{
+    width: 300px;
+    font-size: 30px;
+    background-color: rgb(115, 183, 175);
+    border-radius: 10px;
+}
+#learn:hover{
+    background-color: black;
+    color: white;
+}
+img{
+    border-radius: 50%;
+    width: 60px;
+    padding-left: 850px;
+    padding-top: 640px;
+
+}
+/*css for mainaboutus.html*/
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    text-transform: capitalize;
+    text-align: center;
+}

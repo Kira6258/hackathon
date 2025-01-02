@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book an Appointment</title>
+    <link rel="stylesheet" href="appoinment.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Book an Appointment</h2>
+        <form action="submit_appointment.php" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" name="phone" required>
+
+            <label for="date">Appointment Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Appointment Time:</label>
+            <input type="time" id="time" name="time" required>
+
+            <label for="service">service</label>
+            <select id="service" name="service">
+                <option value="">choose your service</option>
+                <option value="dental">dental clinic</option>
+                <option value="eye">eye clinic</option>
+                <option value="ortho">ortho</option>
+                <option value="regular check-up">regular check-up</option>
+            </select>
+
+            <input type="submit" value="Book Appointment">
+        </form>
+    </div>
+</body>
+</html>
